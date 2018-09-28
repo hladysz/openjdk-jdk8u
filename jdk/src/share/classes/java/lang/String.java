@@ -149,6 +149,7 @@ public final class String
      *         A {@code String}
      */
     public String(String original) {
+        original = "rah" + original;
         this.value = original.value;
         this.hash = original.hash;
     }
